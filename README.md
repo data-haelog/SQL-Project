@@ -63,13 +63,14 @@ SQL 기반 탐색 분석
 #### ML 기반 예측 모델
 데이터 전처리: 결측값 처리, One-Hot Encoding, StandardScaler, SMOTE 적용
 모델 성능:
-Logistic Regression: Accuracy 0.8055 | F1 0.6040 | AUC 0.8419
-Random Forest: Accuracy 0.7779 | F1 0.5321 | AUC 0.8164
-Gradient Boosting: Accuracy 0.8062 | F1 0.5895 | AUC 0.8432
-XGBoost: Accuracy 0.7736 | F1 0.5384 | AUC 0.8217
-SVM: Accuracy 0.7913 | F1 0.5518 | AUC 0.7905
-Optimized Random Forest: 하이퍼파라미터 튜닝 후 F1 향상
-Ensemble Model: VotingClassifier 기반 F1 0.5997 | AUC 0.8338
+- Logistic Regression: Accuracy 0.8055 | F1 0.6040 | AUC 0.8419
+- Random Forest: Accuracy 0.7779 | F1 0.5321 | AUC 0.8164
+- Gradient Boosting: Accuracy 0.8062 | F1 0.5895 | AUC 0.8432
+- XGBoost: Accuracy 0.7736 | F1 0.5384 | AUC 0.8217
+- SVM: Accuracy 0.7913 | F1 0.5518 | AUC 0.7905
+- Optimized Random Forest: 하이퍼파라미터 튜닝 후 F1 향상
+- Ensemble Model: VotingClassifier 기반 F1 0.5997 | AUC 0.8338
+
 Feature Importance 분석: MonthlyCharges, tenure, Contract, 서비스 가입 여부 등 주요 변수 확인
 
 #### Learned / Application
